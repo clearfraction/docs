@@ -22,10 +22,10 @@
 
 - add Clear Fraction paths:
 
-  
+
 ```
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH":/opt/3rd-party/bundles/clearfraction/usr/lib64:/opt/3rd-party/bundles/clearfraction/usr/local/lib64
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH":/opt/3rd-party/bundles/clearfraction/usr/include:/opt/3rd-party/bundles/clearfraction/usr/local/include
+export LD_LIBRARY_PATH=/opt/3rd-party/bundles/clearfraction/usr/lib64:/opt/3rd-party/bundles/clearfraction/usr/local/lib64:"$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH=/opt/3rd-party/bundles/clearfraction/usr/include:/opt/3rd-party/bundles/clearfraction/usr/local/include:"$PKG_CONFIG_PATH"
 ```
 
 Now check if the library is available:
