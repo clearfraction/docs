@@ -24,8 +24,8 @@
 
 
 ```
-export LD_LIBRARY_PATH=/opt/3rd-party/bundles/clearfraction/usr/lib64:/opt/3rd-party/bundles/clearfraction/usr/local/lib64:"$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH=/opt/3rd-party/bundles/clearfraction/usr/include:/opt/3rd-party/bundles/clearfraction/usr/local/include:"$PKG_CONFIG_PATH"
+export LD_LIBRARY_PATH=/opt/3rd-party/bundles/clearfraction/usr/local/lib64:/opt/3rd-party/bundles/clearfraction/usr/lib64:"$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH=/opt/3rd-party/bundles/clearfraction/usr/local/include:/opt/3rd-party/bundles/clearfraction/usr/include:"$PKG_CONFIG_PATH"
 ```
 
 Now check if the library is available:
