@@ -14,10 +14,10 @@
   
 ```
 # sudo swupd bundle-add c-basic
-# sudo 3rd-party bundle-add codecs-cuda devpkg-codecs-cuda
+# sudo swupd 3rd-party bundle-add codecs-cuda devpkg-codecs-cuda
 
 # if you don't need CUDA:
-# sudo 3rd-party bundle-add codecs devpkg-codecs
+# sudo swupd 3rd-party bundle-add codecs devpkg-codecs
 ```
 
 - add Clear Fraction paths:
